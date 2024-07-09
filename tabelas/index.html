@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas no HTML</title>
+  </head>
+  <body>
+    <h1>Criação de Tabelas no HTML</h1>
+
+    <table border="1">
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+      </tr>
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Tabelas Com Cabeçalho</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Cleberson</td>
+          <td>21</td>
+          <td>Desenvolvedor</td>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>22</td>
+            <td>Engenheiro</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Tabelas Com Células Personalizadas</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Informações Pessoais</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nome: </td>
+                <td>Cleberson</td>
+                <td rowspan="2">(13)99137156</td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
